@@ -42,6 +42,16 @@ Son para agrupar los imports cuando son muchos, se crea en donde estan los impor
 pone el nombre de index.js, dentro se ponen las exports, y se llaman en donde se desean importar sin incluir el index,
 react lo determina solo
 
+[El proyecto es un proyecto de NODE, pero cuando se buildea se crea el proyecto de react]
+
 **GIT**
 git init    inicia el repositorio en local
+git config --global user.email "ojrzsrmnt@gmail.com"
+git config --global user.name "mapachon"
 git add .   para mandar TODOS los archivos editados a stage
+git status  muestra los archivos en stage
+git commit -m "primer commit"  "toma la foto"
+git branch -M main  cambia el nombre de la rama en la que estas (en este momento, master -> main)
+git remote add origin https://github.com/mapashhe/react-gif-expert.git      creas el origin (remoto) y le pasas el url de tu proyecto en github
+git checkout -- .   reconstruye el proyecto de acuerdo al ultimo commit
+git push -u origin main     envias la branch main a origin
